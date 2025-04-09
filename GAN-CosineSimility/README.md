@@ -19,13 +19,13 @@ datasets/
     └── test_002.npy
 ```
 
-###Environment configuration
+Environment configuration
 ```bash
 conda create -n pc-gan python=3.9
 conda activate pc-gan
 pip install -r requirements.txt
 ```
-####Quiky start
+Quiky start
 ```
 python scripts/train.py --config configs/default.yaml
 python scripts/evaluate.py \
