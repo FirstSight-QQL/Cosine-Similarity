@@ -6,7 +6,7 @@ Implementation of Geological Point Cloud Simplification Algorithm Based on Gener
 -Hybrid Adversarial Training Framework
 -3D point cloud visualization support
 -A complete training monitoring and evaluation system
-####Data preparation
+###Data preparation
 ```bash
 Save point cloud data in. npy format
 Organize the dataset according to the following structure:
