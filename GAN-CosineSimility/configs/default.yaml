@@ -1,0 +1,27 @@
+# 数据配置
+data:
+  root: ./datasets
+  batch_size: 64
+  num_workers: 8
+  normalize: True
+
+# 模型参数
+model:
+  input_dim: 3
+  hidden_dim: 256
+  feat_dim: 1024
+  K: 2048
+  eps: 1.0
+  min_samples: 10
+
+# 训练参数
+train:
+  lr: 0.0002
+  betas: [0.5, 0.999]
+  epochs: 1000
+  device: cuda
+  checkpoint_dir: ./checkpoints
+  log_dir: ./logs
+  max_to_keep: 5
+  alpha_init: 0.1  # 比较器初始权重
+  beta_init: 0.9   # 判别器初始权重
